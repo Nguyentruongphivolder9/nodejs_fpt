@@ -1,0 +1,15 @@
+<form action="/post-email" method="POST">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email người gửi</label>
+        <input name="emailSender" type="email" class="form-control" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label">Email người nhận</label>
+        <input name="emailReceiver" type="email" class="form-control" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label">Chủ đề</label>
+        <input name="topic" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
+        <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Gửi email</button>
+</form>
